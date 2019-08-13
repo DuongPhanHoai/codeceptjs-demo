@@ -1,0 +1,48 @@
+{
+  "name": "codeceptjs-demo",
+  "version": "1.0.0",
+  "description": "Just the demonstration for fully simple automation framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/codeceptjs/bin/codecept.js run --steps",
+    "test-multiple": "node ./node_modules/codeceptjs/bin/codecept.js run-multiple --all",
+    "test-puppeteer": "node ./node_modules/codeceptjs/bin/codecept.js run --steps --config=./config/codecept.conf.puppeteer.js",
+    "test-protractor": "node ./node_modules/codeceptjs/bin/codecept.js run --steps --config=./config/codecept.conf.protractor.js",
+    "test-nightmare": "node ./node_modules/codeceptjs/bin/codecept.js run --steps --config=./config/codecept.conf.nightmare.js",
+    "test-init-server": "node ./node_modules/codeceptjs/bin/codecept.js run --steps --config=./config/codecept.conf.start.server.js",
+    "test-report-portal": "node ./node_modules/codeceptjs/bin/codecept.js run  --steps --plugins reportPortal",
+    "test-regression": "node ./node_modules/codeceptjs/bin/codecept.js run --steps --grep @regression",
+    "test-smoke": "node ./node_modules/codeceptjs/bin/codecept.js run --steps --grep @smoke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuongPhanHoai/codeceptjs-demo.git"
+  },
+  "keywords": [
+    "codeceptjs",
+    "demo"
+  ],
+  "author": "DuongPhanHoai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DuongPhanHoai/codeceptjs-demo/issues"
+  },
+  "homepage": "https://github.com/DuongPhanHoai/codeceptjs-demo#readme",
+  "dependencies": {
+    "allure": "*",
+    "allure-commandline": "*",
+    "codeceptjs": "^2.0.8",
+    "eslint": "*",
+    "eslint-plugin-codeceptjs": "*",
+    "nightmare": "*",
+    "nodegit": "*",
+    "protractor": "^5.4.2",
+    "puppeteer": "^1.14.0",
+    "reportportal-client": "^5.2.1",
+    "requireg": "^0.2.1",
+    "selenium-standalone": "*"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
