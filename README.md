@@ -4,7 +4,7 @@ Basic intro: https://docs.google.com/presentation/d/1CQrO_ks0Jhr17DDPxFDV1m2cqEe
 ******** TEST SPECS ********
 This is the fully demo automation framework based on CodeceptJS as followings:
 1. Start test server as following step by hook of ...
-1.1. Start with clone pantry-for-good
+1.1. Start with clone pantry-for-good (NodeJS 8)
 1.2. Install dependencies for pantry-for-good
 1.3. Start pantry-for-good
 
@@ -67,3 +67,4 @@ There is error from report portal which I cannot find the repository to make PR,
 ******** DEMO based on MIT opensource https://github.com/freeCodeCamp/pantry-for-good ********
  - Clone the repo, install MongoBD
  - start pantry-for-good follow its README.md
+ - pantry-for-good works with NodeJS 8
